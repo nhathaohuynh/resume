@@ -31,7 +31,7 @@ function Navbar() {
         {navlinks.map((navlink, index) => (
           <li
             key={index}
-            className={`md:text-lg text-sm font-semibold border-[1px] rounded px-3 py-1 ${
+            className={`md:text-md text-sm font-semibold border-[1px] rounded px-3 py-1 ${
               pathname === navlink.link
                 ? "text-primarycolor border-primarycolor"
                 : "text-white border-transparent"

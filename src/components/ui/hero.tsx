@@ -13,7 +13,7 @@ import { FaPlus } from "react-icons/fa6"
 function Hero() {
   return (
     <div className="w-full h-full flex justify-evenly items-center flex-col z-20">
-      <div className="w-11/12 flex justify-center items-center mt-7">
+      <div className="w-11/12 flex justify-between items-center mt-7">
         <div className="flex-1 md:mt-0 mt-16">
           <div className="text_container">
             <h5 className="text-gray-300">Hi there!</h5>
@@ -25,11 +25,11 @@ function Hero() {
               Welcome to look at my profile!
               <strong className="text-primarycolor">
                 {" "}
-                In 1+ years of JavaScript and Typescript experience
+                In 1+ years of JavaScript and Typescript experience.
               </strong>
-              . I am passionate about creating seamless user experiences and
-              believe that simplifying code leads to more agile applications. I
-              am good at teamwork, friendly, and easy to approach.
+              <br />I am passionate about creating seamless user experiences and
+              believe that simplifying code leads to more agile applications.
+              <br /> I am good at teamwork, friendly, and easy to approach.
             </p>
             <Link
               href="/resume.pdf"
@@ -44,7 +44,7 @@ function Hero() {
             </Link>
           </div>
         </div>
-        <div className="lg:flex hidden flex-1 justify-center items-center">
+        <div className="lg:flex hidden flex-1 justify-end md:mr-20 items-center">
           <div className="hero_image_container w-full max-w-md bg-blue-300 p-4 rounded-3xl border border-gray-600/[0.5] shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] flex justify-center items-center">
             <Image
               src={"/img/hero.jpeg"}

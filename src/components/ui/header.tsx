@@ -31,7 +31,7 @@ const Header = () => {
         scrolled ? "sticky-header" : "sticky-header"
       }`}
     >
-      <div className={`w-full flex px-4 py-4 justify-between items-center`}>
+      <div className={`w-11/12 flex  py-4 justify-between items-center`}>
         <div className="flex-1">
           <Link href={"/"}>
             <h4 className="text-xl font-semibold text-left">

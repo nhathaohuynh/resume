@@ -33,6 +33,7 @@ function Hero() {
             </p>
             <Link
               href="/resume.pdf"
+              download="/resume.pdf"
               target="_blank"
               className="md:block hidden"
             >

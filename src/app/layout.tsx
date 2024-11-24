@@ -10,7 +10,10 @@ const PlusJakartaSans = Plus_Jakarta_Sans({
 
 export const metadata = {
   title: "CV - Kevin Hao",
-  description: "I  am a software engineer who loves to build things."
+  description: "I  am a software engineer who loves to build things.",
+  icons: {
+    icon: "/favicon.png"
+  }
 }
 
 interface RootLayoutProps {
